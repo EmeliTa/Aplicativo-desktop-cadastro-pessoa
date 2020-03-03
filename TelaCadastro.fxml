@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane id="AnchorPane" prefHeight="212.0" prefWidth="406.0" style="-fx-background-color: #A0B58D;" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Controller.TelaCadastroController">
+   <children>
+      <Label layoutX="91.0" layoutY="14.0" text="Preencha corretamente os campos">
+         <font>
+            <Font name="Arial" size="16.0" />
+         </font>
+      </Label>
+      <Label layoutX="46.0" layoutY="96.0" text="Email:">
+         <font>
+            <Font name="Arial" size="16.0" />
+         </font>
+      </Label>
+      <Label layoutX="43.0" layoutY="134.0" text="Senha:">
+         <font>
+            <Font name="Arial" size="16.0" />
+         </font>
+      </Label>
+      <TextField fx:id="txNome2" layoutX="116.0" layoutY="56.0" opacity="0.66" />
+      <TextField fx:id="txEmail2" layoutX="116.0" layoutY="94.0" opacity="0.66" />
+      <PasswordField fx:id="txSenha2" layoutX="116.0" layoutY="131.0" opacity="0.66" />
+      <Label layoutX="46.0" layoutY="59.0" text="Nome:">
+         <font>
+            <Font name="Arial" size="16.0" />
+         </font>
+      </Label>
+      <Button fx:id="btCadastrar2" layoutX="83.0" layoutY="173.0" mnemonicParsing="false" style="-fx-background-color: #7BB0A6;" text="Cadastrar" />
+      <Button fx:id="btCancelar2" layoutX="294.0" layoutY="173.0" mnemonicParsing="false" style="-fx-background-color: #EE7469;" text="Cancelar" />
+   </children>
+</AnchorPane>

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane id="AnchorPane" prefHeight="315.0" prefWidth="422.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Controller.TelaConsultarController">
+   <children>
+      <TableView fx:id="Tabela" layoutX="31.0" layoutY="58.0" prefHeight="200.0" prefWidth="226.0">
+        <columns>
+          <TableColumn fx:id="clnId" prefWidth="75.0" text="ID" />
+          <TableColumn fx:id="clnNome" prefWidth="75.0" text="Nome" />
+            <TableColumn fx:id="clnEmail" prefWidth="75.0" text="E-mail" />
+        </columns>
+      </TableView>
+      <Button fx:id="btSair" layoutX="329.0" layoutY="175.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="52.0" style="-fx-background-color: #E01931;" text="Sair" />
+      <Button fx:id="btAlterar" layoutX="329.0" layoutY="64.0" mnemonicParsing="false" style="-fx-background-color: #97CE68;" text="Alterar" />
+      <Button fx:id="btExcluir" layoutX="330.0" layoutY="118.0" mnemonicParsing="false" style="-fx-background-color: #F1C40F;" text="Excluir" />
+      <Label layoutX="31.0" layoutY="14.0" text="Bem-Vindo a tela consulta, escolha uma opção:" />
+   </children>
+</AnchorPane>

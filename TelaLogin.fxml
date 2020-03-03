@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.web.*?>
+<?import javafx.scene.paint.*?>
+<?import javafx.scene.text.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane id="AnchorPane" fx:id="txLogin" prefHeight="192.0" prefWidth="366.0" style="-fx-background-color: #ecf0f1;" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Controller.TelaLoginController">
+   <children>
+      <Label layoutX="44.0" layoutY="53.0" prefHeight="17.0" prefWidth="39.0" text="Login:">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Label>
+      <Label layoutX="45.0" layoutY="101.0" text="Senha:">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Label>
+      <TextField fx:id="txNome" layoutX="104.0" layoutY="51.0" opacity="0.8" promptText="Digite seu login" />
+      <PasswordField fx:id="txSenha" layoutX="104.0" layoutY="99.0" opacity="0.8" promptText="Digite sua senha" />
+      <Button fx:id="btLogar" layoutX="79.0" layoutY="148.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="94.0" style="-fx-background-radius: 90; -fx-background-radius: 90;" text="Logar" />
+      <Button fx:id="btSair" layoutX="193.0" layoutY="148.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="94.0" style="-fx-background-radius: 90;" text="Sair" />
+   </children>
+</AnchorPane>

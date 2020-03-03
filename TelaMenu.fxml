@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane id="AnchorPane" prefHeight="177.0" prefWidth="318.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Controller.TelaMenuController">
+   <children>
+      <Button fx:id="btCadastrar" layoutX="114.0" layoutY="76.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="75.0" style="-fx-background-radius: 80; -fx-background-color: #ecf0f1;" text="Cadastrar" />
+      <Button fx:id="btConsultar" layoutX="114.0" layoutY="114.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="75.0" style="-fx-background-radius: 80; -fx-background-color: #ecf0f1;" text="Consultar" />
+      <Button fx:id="btSair2" layoutX="239.0" layoutY="16.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="65.0" style="-fx-background-color: #ecf0f1; -fx-background-radius: 50;" text="Sair" />
+      <Label layoutX="79.0" layoutY="28.0" prefHeight="25.0" prefWidth="185.0" text="Escolha uma opção:">
+         <font>
+            <Font name="Arial Bold" size="15.0" />
+         </font>
+      </Label>
+   </children>
+</AnchorPane>
