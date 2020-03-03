@@ -1,8 +1,4 @@
-/*
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
- */
+
 package jdbc;
 import java.sql.Connection;
 import java.sql.DriverManager;
@@ -12,10 +8,7 @@ import java.sql.Statement;
 import java.util.logging.Level;
 import java.util.logging.Logger;
 
-/**
- *
- * @author SnakeGnr
- */
+
 public class ConexaoBD2 {
 
     public Connection con; //estabele uma conexão com o BD
@@ -23,8 +16,8 @@ public class ConexaoBD2 {
     public ResultSet rs; //armazena o resultado da pesquisa
     private String driver = "org.postgresql.Driver"; //identifica o serviço de BD 
     private String caminho ="jdbc:postgresql://localhost:5432/Pessoa"; //onde o BD esta alocado
-    private String usuario = "postgres"; //usuario postgresql
-    private String senha = "aluno" ;//senha postgresql
+    private String usuario = "  "; //usuario postgresql
+    private String senha = "  " ;//senha postgresql
     
     public void criaConexao(){
         System.setProperty("jdbc.Drivers", driver);
